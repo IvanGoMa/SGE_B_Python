@@ -13,14 +13,14 @@ Notable => 6,6 a 8
 Excel·lent => més de 8
 
 '''
-nota = 7
+nota = 8.5
 
 if nota < 5:
     print("L'alumne ha suspés")
 elif nota < 6.6:
     print("L'alumne ha aprovat")
 elif nota <= 8:
-    print("L'alume a tret un notable")
+    print("L'alume ha tret un notable")
 else:
     print("L'alumne ha tret un excel·lent")
 

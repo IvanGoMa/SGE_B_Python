@@ -6,7 +6,7 @@
 
 #Exemple càlcul si el salari son 5000 => 5.000 * 0/100
 
-salari = 50000
+salari = 20000
 if salari < 15000:
     print(f"S'aplica un IVA del 0%, el salari final és {salari}")
 elif salari < 30000:
