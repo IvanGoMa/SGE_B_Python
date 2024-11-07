@@ -12,6 +12,6 @@ if salari < 15000:
 elif salari < 30000:
     salariFinal = salari - salari*0.1
     print(f"S'aplicarà un IVA del 10%, el salari final és {salariFinal} ")
-else:
+elif salari < 60000:
     salariFinal = salari - salari*0.21
     print(f"S'aplica un IVA del 21%, el salari final és {salariFinal}")
