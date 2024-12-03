@@ -1,32 +1,32 @@
 class Colibri:
-    def __init__(self,tamany,model,color,any,portes):
-        self.marca = marca
-        self.model = model
+    def __init__(self,tamany,especie,color,habitat,pes):
+        self.tamany = tamany
+        self.especie = especie
         self.color = color
-        self.any = any
-        self.portes = portes
+        self.habitat = habitat
+        self.pes = pes
 
-    def getMarca(self):
-        return self.marca
-    def setMarca(self,newMarca):
-        self.marca= newMarca
+    def getTamany(self):
+        return self.tamany
+    def setTamany(self,newTamany):
+        self.tamany= newTamany
 
-    def getModel(self):
-        return self.model
-    def setModel(self,newModel):
-        self.model= newModel
+    def getEspecie(self):
+        return self.especie
+    def setEspecie(self,newEspecie):
+        self.especie= newEspecie
 
     def getColor(self):
         return self.color
     def setColor(self,newColor):
         self.color= newColor
 
-    def getAny(self):
-        return self.any
-    def setAny(self,newAny):
-        self.any= newAny
+    def getHabitat(self):
+        return self.habitat
+    def setHabitat(self,newHabitat):
+        self.habitat= newHabitat
 
-    def getPortes(self):
-        return self.portes
-    def setPortes(self,newPortes):
-        self.portes= newPortes
+    def getPes(self):
+        return self.pes
+    def setPes(self,newPes):
+        self.pes= newPes
